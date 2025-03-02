@@ -107,7 +107,9 @@ The system uses SQLAlchemy ORM with the following tables:
 
 
 📜 License
+
 *This project is open-source and available under the MIT License.
 
 🙌 Contributing
+
 *Feel free to fork the repository and submit pull requests! 🚀
