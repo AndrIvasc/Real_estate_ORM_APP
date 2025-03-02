@@ -4,110 +4,110 @@ A Python-based Real Estate Management System built with SQLAlchemy for managing 
 📌 Features
 ➕ Add Functions:
 
-   Add Owners
+   *Add Owners
    
-   Add Properties
+   *Add Properties
    
-   Add Agencies
+   *Add Agencies
    
-   Add Listings
+   *Add Listings
 
 
 ✏️ Edit Functions:
 
-   Edit Owners (name, phone number)
+   *Edit Owners (name, phone number)
    
-   Edit Properties (area, registry number, address)
+   *Edit Properties (area, registry number, address)
    
-   Edit Agencies (name, company code)
+   *Edit Agencies (name, company code)
    
-   Edit Listings (sale & rental price)
+   *Edit Listings (sale & rental price)
    
-   Edit Addresses & Cities
+   *Edit Addresses & Cities
 
 
 📖 Read Functions:
 
-   Search Properties by City
+   *Search Properties by City
    
-   View Property Prices by Registry Number
+   *View Property Prices by Registry Number
    
-   Advanced Property Search (filters by city, sale & rental price range)
+   *Advanced Property Search (filters by city, sale & rental price range)
 
 Show All Properties by:
 
-   Agency
+   *Agency
    
-   Property Type
+   *Property Type
    
-   Owners
+   *Owners
 
 
 ❌ Remove Functions:
 
-   Remove Owners
+   *Remove Owners
    
-   Remove Properties
+   *Remove Properties
    
-   Remove Listings
+   *Remove Listings
 
 
 🛠️ Installation
 1. Clone the repository:
    
-  git clone https://github.com/AndrIvasc/Real_estate_ORM_APP.git
+  *git clone https://github.com/AndrIvasc/Real_estate_ORM_APP.git
   
-  cd real-estate-management
+  *cd real-estate-management
 
 3. Create and activate a virtual environment:
    
-  python -m venv venv
-  source venv/bin/activate  # For Mac/Linux
+  *python -m venv venv
+  *source venv/bin/activate  # For Mac/Linux
   
-  venv\Scripts\activate  # For Windows
+  *venv\Scripts\activate  # For Windows
 
 5. Install dependencies:
    
-  pip install -r requirements.txt
+  *pip install -r requirements.txt
 
 7. Set up the database:
    
-  python db_setup.py
+  *python db_setup.py
 
 9. Run the application:
     
-  python main.py
+  *python main.py
 
 🏗️ Database Schema
 The system uses SQLAlchemy ORM with the following tables:
 
-Owners (id, first name, last name, phone number)
+*Owners (id, first name, last name, phone number)
 
-Cities (id, name)
+*Cities (id, name)
 
-Addresses (id, street, postal code, city_id
+*Addresses (id, street, postal code, city_id
 
-Properties (id, owner_id, address_id, area, registry number)
+*Properties (id, owner_id, address_id, area, registry number)
 
-Agencies (id, name, company code)
+*Agencies (id, name, company code)
 
-Listings (id, property_id, agency_id, sale_price, rental_price)
+*Listings (id, property_id, agency_id, sale_price, rental_price)
 
 
 🎯 Usage
-After running main.py, navigate through the interactive menu to add, edit, delete, and search properties with ease.
+*After running main.py, navigate through the interactive menu to add, edit, delete, and search properties with ease.
 
 💡 Future Improvements
 
-User authentication to allow different roles (admin, agents, clients)
+*User authentication to allow different roles (admin, agents, clients)
 
-GUI version using Flask or Django
+*GUI version using Flask or Django
 
-REST API for remote access
+*REST API for remote access
 
 
 📜 License
-This project is open-source and available under the MIT License.
+*This project is open-source and available under the MIT License.
 
 🙌 Contributing
-Feel free to fork the repository and submit pull requests! 🚀
+*Feel free to fork the repository and submit pull requests! 🚀
