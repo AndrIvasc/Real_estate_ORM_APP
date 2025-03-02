@@ -31,7 +31,7 @@ Remove Listings
 
 🛠️ Installation
 1. Clone the repository:
-  git clone https://github.com/your-username/real-estate-management.git
+  git clone https://github.com/AndrIvasc/Real_estate_ORM_APP.git
   cd real-estate-management
 
 2. Create and activate a virtual environment:
