@@ -31,21 +31,26 @@ Remove Listings
 
 🛠️ Installation
 1. Clone the repository:
+   
   git clone https://github.com/AndrIvasc/Real_estate_ORM_APP.git
   cd real-estate-management
 
-2. Create and activate a virtual environment:
+3. Create and activate a virtual environment:
+   
   python -m venv venv
   source venv/bin/activate  # For Mac/Linux
   venv\Scripts\activate  # For Windows
 
-3. Install dependencies:
+5. Install dependencies:
+   
   pip install -r requirements.txt
 
-4. Set up the database:
+7. Set up the database:
+   
   python db_setup.py
 
-5. Run the application:
+9. Run the application:
+    
   python main.py
 
 🏗️ Database Schema
