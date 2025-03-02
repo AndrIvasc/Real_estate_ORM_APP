@@ -33,12 +33,14 @@ Remove Listings
 1. Clone the repository:
    
   git clone https://github.com/AndrIvasc/Real_estate_ORM_APP.git
+  
   cd real-estate-management
 
 3. Create and activate a virtual environment:
    
   python -m venv venv
   source venv/bin/activate  # For Mac/Linux
+  
   venv\Scripts\activate  # For Windows
 
 5. Install dependencies:
