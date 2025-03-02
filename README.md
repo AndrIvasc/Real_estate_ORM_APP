@@ -57,20 +57,31 @@ Remove Listings
 
 🏗️ Database Schema
 The system uses SQLAlchemy ORM with the following tables:
+
 Owners (id, first name, last name, phone number)
+
 Cities (id, name)
+
 Addresses (id, street, postal code, city_id
+
 Properties (id, owner_id, address_id, area, registry number)
+
 Agencies (id, name, company code)
+
 Listings (id, property_id, agency_id, sale_price, rental_price)
+
 
 🎯 Usage
 After running main.py, navigate through the interactive menu to add, edit, delete, and search properties with ease.
 
 💡 Future Improvements
+
 User authentication to allow different roles (admin, agents, clients)
+
 GUI version using Flask or Django
+
 REST API for remote access
+
 
 📜 License
 This project is open-source and available under the MIT License.
