@@ -3,31 +3,54 @@ A Python-based Real Estate Management System built with SQLAlchemy for managing 
 
 📌 Features
 ➕ Add Functions:
-Add Owners
-Add Properties
-Add Agencies
-Add Listings
+
+   Add Owners
+   
+   Add Properties
+   
+   Add Agencies
+   
+   Add Listings
+
 
 ✏️ Edit Functions:
-Edit Owners (name, phone number)
-Edit Properties (area, registry number, address)
-Edit Agencies (name, company code)
-Edit Listings (sale & rental price)
-Edit Addresses & Cities
+
+   Edit Owners (name, phone number)
+   
+   Edit Properties (area, registry number, address)
+   
+   Edit Agencies (name, company code)
+   
+   Edit Listings (sale & rental price)
+   
+   Edit Addresses & Cities
+
 
 📖 Read Functions:
-Search Properties by City
-View Property Prices by Registry Number
-Advanced Property Search (filters by city, sale & rental price range)
+
+   Search Properties by City
+   
+   View Property Prices by Registry Number
+   
+   Advanced Property Search (filters by city, sale & rental price range)
+
 Show All Properties by:
-Agency
-Property Type
-Owners
+
+   Agency
+   
+   Property Type
+   
+   Owners
+
 
 ❌ Remove Functions:
-Remove Owners
-Remove Properties
-Remove Listings
+
+   Remove Owners
+   
+   Remove Properties
+   
+   Remove Listings
+
 
 🛠️ Installation
 1. Clone the repository:
